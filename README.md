@@ -1,4 +1,6 @@
-## 유지호 · Ryu Jiho
+<p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="유지호 · Ryu Jiho — Cloud · Infra · Embedded" />
+</p>
 
 요청이 어떤 경로로 처리되고, 상태가 어디서 바뀌는지 직접 따라가며 문제를 찾는 개발자입니다.
 기능을 만드는 데서 끝내지 않고 비용·성능·운영 환경까지 함께 보고, 고친 뒤에는 문제가 났던 조건 그대로 다시 검증합니다.
