@@ -4,14 +4,14 @@
       <stop offset="0" stop-color="#0b1220"/>
       <stop offset="1" stop-color="#111c33"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.45">
+    <radialGradient id="glow" cx="0.8" cy="0.45" r="0.45">
       <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.05"/>
     </pattern>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M0 0 L10 5 L0 10 z" fill="#3b4a66"/>
     </marker>
     <style>
@@ -27,37 +27,38 @@
 
   <!-- left: identity -->
   <g class="sans">
-    <text x="72" y="92" font-size="14" font-weight="600" letter-spacing="3.5" fill="#2dd4bf">CLOUD · INFRA · EMBEDDED</text>
-    <text x="72" y="162" font-size="56" font-weight="800" fill="#f1f5f9">유지호<tspan dx="18" font-size="28" font-weight="500" fill="#7c8aa5">Ryu Jiho</tspan></text>
-    <text x="72" y="212" font-size="21" fill="#cbd5e1">요청이 처리되는 경로를 따라가 문제의 원인을 찾습니다.</text>
-    <text x="72" y="256" font-size="15" fill="#7c8aa5">AWS SAA-C03  ·  SSAFY  ·  서울시립대학교 컴퓨터과학부</text>
+    <text x="72" y="70" font-size="19" font-weight="700" letter-spacing="4" fill="#2dd4bf">CLOUD · INFRA · EMBEDDED</text>
+    <text x="72" y="154" font-size="74" font-weight="800" fill="#f1f5f9">유지호<tspan dx="20" font-size="34" font-weight="500" fill="#7c8aa5">Ryu Jiho</tspan></text>
+    <text x="72" y="208" font-size="28" fill="#cbd5e1">요청이 처리되는 경로를 따라가</text>
+    <text x="72" y="246" font-size="28" fill="#cbd5e1">문제의 원인을 찾습니다.</text>
+    <text x="72" y="286" font-size="20" fill="#7c8aa5">AWS SAA-C03 · SSAFY · 서울시립대 컴퓨터과학부</text>
   </g>
 
   <!-- right: request flow (Castle Coder) -->
-  <g class="mono" font-size="15">
-    <line x1="884" y1="152" x2="930" y2="152" stroke="#3b4a66" stroke-width="2" marker-end="url(#arrow)"/>
-    <line x1="1050" y1="152" x2="1096" y2="152" stroke="#3b4a66" stroke-width="2" marker-end="url(#arrow)"/>
-    <text x="907" y="136" font-size="12" text-anchor="middle" fill="#7c8aa5">SSE</text>
-    <text x="1073" y="136" font-size="12" text-anchor="middle" fill="#7c8aa5">gRPC</text>
+  <g class="mono">
+    <line x1="840" y1="146" x2="882" y2="146" stroke="#3b4a66" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="1026" y1="146" x2="1068" y2="146" stroke="#3b4a66" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="861" y="126" font-size="15" text-anchor="middle" fill="#7c8aa5">SSE</text>
+    <text x="1047" y="126" font-size="15" text-anchor="middle" fill="#7c8aa5">gRPC</text>
 
-    <rect x="764" y="128" width="120" height="48" rx="10" fill="#0f1a2e" stroke="#2a3956"/>
-    <text x="824" y="157" text-anchor="middle" fill="#e2e8f0">VS Code</text>
-    <rect x="930" y="128" width="120" height="48" rx="10" fill="#0f1a2e" stroke="#2a3956"/>
-    <text x="990" y="157" text-anchor="middle" fill="#e2e8f0">Backend</text>
-    <rect x="1096" y="128" width="120" height="48" rx="10" fill="#0f1a2e" stroke="#2dd4bf" stroke-opacity="0.7"/>
-    <text x="1156" y="157" text-anchor="middle" fill="#e2e8f0">vLLM</text>
+    <rect x="696" y="116" width="144" height="60" rx="12" fill="#0f1a2e" stroke="#2a3956" stroke-width="1.5"/>
+    <text x="768" y="153" font-size="20" text-anchor="middle" fill="#e2e8f0">VS Code</text>
+    <rect x="882" y="116" width="144" height="60" rx="12" fill="#0f1a2e" stroke="#2a3956" stroke-width="1.5"/>
+    <text x="954" y="153" font-size="20" text-anchor="middle" fill="#e2e8f0">Backend</text>
+    <rect x="1068" y="116" width="144" height="60" rx="12" fill="#0f1a2e" stroke="#2dd4bf" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="1140" y="153" font-size="20" text-anchor="middle" fill="#e2e8f0">vLLM</text>
 
     <!-- packets travelling the request path -->
-    <circle r="4" fill="#2dd4bf">
-      <animateMotion dur="3.2s" repeatCount="indefinite" path="M884 152 H1096"/>
+    <circle r="5" fill="#2dd4bf">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M840 146 H1068"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.2s" repeatCount="indefinite"/>
     </circle>
-    <circle r="4" fill="#60a5fa">
-      <animateMotion dur="3.2s" begin="1.1s" repeatCount="indefinite" path="M884 152 H1096"/>
+    <circle r="5" fill="#60a5fa">
+      <animateMotion dur="3.2s" begin="1.1s" repeatCount="indefinite" path="M840 146 H1068"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
 
-    <text x="764" y="216" font-size="13" fill="#7c8aa5"><tspan fill="#2dd4bf">▸</tspan> active_clients=2  lock()</text>
-    <text x="764" y="240" font-size="13" fill="#7c8aa5"><tspan fill="#2dd4bf">▸</tspan> active_clients=0  wait 0.5s → stop()</text>
+    <text x="696" y="226" font-size="18" fill="#7c8aa5"><tspan fill="#2dd4bf">▸</tspan> active_clients=2  lock()</text>
+    <text x="696" y="258" font-size="18" fill="#7c8aa5"><tspan fill="#2dd4bf">▸</tspan> active_clients=0  wait 0.5s → stop()</text>
   </g>
 </svg>
