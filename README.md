@@ -5,10 +5,10 @@
 
 <p align="center">
   <samp>
-    <a href="#-castle-coder">castle coder</a> ·
-    <a href="#-일조매">일조매</a> ·
-    <a href="#-그-밖의-작업">side projects</a> ·
-    <a href="#-tech">tech</a> ·
+    <a href="#castle-coder">castle coder</a> ·
+    <a href="#일조매">일조매</a> ·
+    <a href="#그-밖의-작업">side projects</a> ·
+    <a href="#tech">tech</a> ·
     <a href="mailto:shldlqj2@naver.com">mail</a>
   </samp>
 </p>
@@ -20,10 +20,10 @@
 
 <br>
 
-## 🏰 Castle Coder
+## Castle Coder
 
 **보안 중심 AI 코드 에이전트** · 캡스톤디자인 · 2025.03 – 06 · DevOps / Infra (6인)
-🏆 **캡스톤 프로젝트 우수 작품상**
+**캡스톤 프로젝트 우수 작품상** (2025.07)
 
 VS Code 확장에서 요청하면 백엔드가 RunPod Serverless 위의 vLLM을 호출해, OWASP Top 10 취약점을 줄인 코드를 스트리밍으로 돌려줍니다. 그 추론 경로의 인프라와 AI 모델 서버를 맡았습니다.
 
@@ -71,7 +71,7 @@ VS Code Extension ──SSE──▶ Backend (AWS EC2 · Docker) ──gRPC─�
 
 <br>
 
-## 📅 일조매
+## 일조매
 
 **팀 프로젝트 협업 보조 앱** (Small-Work-Everyday) · 소프트웨어공학 팀 프로젝트 · 2024 2학기 · Back-end (6인)
 
@@ -95,7 +95,7 @@ VS Code Extension ──SSE──▶ Backend (AWS EC2 · Docker) ──gRPC─�
 
 <br>
 
-## 🔧 그 밖의 작업
+## 그 밖의 작업
 
 - **[MiniMCWS](https://github.com/shldlqj2/MiniMCWS)** — ATmega128에서 무장 제어를 모사한 FSM, 10ms 타이머 제어 루프와 Fail-Safe, UART 패킷 CRC 검증, Python 간이 SIL · Fault Injection `C`
 - **[MiniOFP](https://github.com/shldlqj2/MiniOFP)** — 비행 소프트웨어(OFP) 핵심 개념 학습, 대권 거리(Haversine) 등 항법 계산과 단위 테스트 `C++`
@@ -104,7 +104,7 @@ VS Code Extension ──SSE──▶ Backend (AWS EC2 · Docker) ──gRPC─�
 
 <br>
 
-## 🛠 Tech
+## Tech
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
