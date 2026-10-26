@@ -13,10 +13,12 @@
   </samp>
 </p>
 
+<a href="https://www.credly.com/badges/3071fb07-36a7-4366-af76-46cde0d2f8fa/public_url"><img align="right" width="96" alt="AWS Certified Solutions Architect – Associate" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"></a>
+
 요청이 어떤 경로로 처리되고 상태가 어디서 바뀌는지 직접 따라가며 문제를 찾습니다.
 기능 구현에서 멈추지 않고 비용·성능·운영 환경까지 함께 보고, 고친 뒤에는 문제가 났던 조건 그대로 다시 검증합니다.
 
-**서울시립대학교 컴퓨터과학부** (2026.02 졸업) · **SSAFY** 16기 (2026.07 –) · **AWS SAA-C03** (2025.05)
+**서울시립대학교 컴퓨터과학부** (2026.02 졸업) · **SSAFY** 16기 (2026.07 –) · **AWS SAA-C03** ([Credly](https://www.credly.com/badges/3071fb07-36a7-4366-af76-46cde0d2f8fa/public_url))
 
 <br>
 
