@@ -23,6 +23,7 @@
   <rect width="1280" height="320" rx="20" fill="url(#bg)"/>
   <rect width="1280" height="320" rx="20" fill="url(#dots)"/>
   <rect width="1280" height="320" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="19.5" fill="none" stroke="#1f2a40"/>
 
   <!-- left: identity -->
   <g class="sans">
