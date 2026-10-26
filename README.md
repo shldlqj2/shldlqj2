@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shldlqj2/shldlqj2/main/assets/banner-dark.svg">
-  <img alt="유지호 · Ryu Jiho — Cloud · Infra · Embedded" src="https://raw.githubusercontent.com/shldlqj2/shldlqj2/main/assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shldlqj2/shldlqj2/main/assets/banner-dark.svg?v=2">
+  <img alt="유지호 · Ryu Jiho — Cloud · Infra · Embedded" src="https://raw.githubusercontent.com/shldlqj2/shldlqj2/main/assets/banner-light.svg?v=2" width="100%">
 </picture>
 
 <p align="center">
