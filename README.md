@@ -1,4 +1,4 @@
-# 안녕하세요. 클라우드·인프라 개발자 유지호입니다.
+# 안녕하세요. 개발자 유지호입니다.
 
 <a href="https://www.credly.com/badges/3071fb07-36a7-4366-af76-46cde0d2f8fa/public_url"><img align="right" width="110" alt="AWS Certified Solutions Architect – Associate" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"></a>
 
