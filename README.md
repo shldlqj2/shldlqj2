@@ -1,4 +1,4 @@
-# 안녕하세요. 개발자 유지호입니다.
+# 안녕하세요, 유지호입니다.
 
 <a href="https://www.credly.com/badges/3071fb07-36a7-4366-af76-46cde0d2f8fa/public_url"><img align="right" width="110" alt="AWS Certified Solutions Architect – Associate" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"></a>
 
@@ -25,10 +25,10 @@
 
 보안 중심 AI 코드 에이전트 · 2025.03 ~ 2025.06 · 서울시립대학교 캡스톤디자인 **우수 작품상** · DevOps/Infra 담당
 
-- AWS EC2와 Docker로 서버를 띄우고 GitHub Actions로 빌드·배포 자동화
-- RunPod Serverless 위에 vLLM 추론 서버 개발 (WebSocket에서 gRPC 스트리밍으로 전환)
-- gRPC 전환 후 동시에 요청하면 같은 답변이 나오고 서버가 먼저 종료되던 문제 해결 ([커밋](https://github.com/castle-coder/castle-coder-runpod/commit/7fb5572))
-- GPU 운영 방식을 비교해 RunPod Serverless 선택 (상시 구동 대비 시간당 약 1/4 비용으로 추정)
+- AWS EC2·Docker로 서버 환경 구성, GitHub Actions로 빌드·배포 자동화
+- RunPod Serverless에서 vLLM 추론 서버 개발 및 WebSocket을 gRPC 스트리밍으로 전환
+- gRPC 동시 요청에서 같은 답변이 반환되는 오류와 서버 조기 종료 오류 수정 ([커밋](https://github.com/castle-coder/castle-coder-runpod/commit/7fb5572))
+- GPU 운영 비용을 비교해 RunPod Serverless 채택 (시간당 비용을 상시 구동의 약 1/4로 추정, [비교](https://eastern-silence-5cf.notion.site/Capstone-Project-1afb4dbdee4e807b84d6de28fc9d2453) · [실측](https://eastern-silence-5cf.notion.site/RunPod-Serverless-1c4b4dbdee4e80499113c2af4f946834))
 
 [Organization](https://github.com/castle-coder) · [castle-coder-runpod](https://github.com/castle-coder/castle-coder-runpod) · [castle-coder-be](https://github.com/castle-coder/castle-coder-be) · [OWASPCodeEval](https://github.com/castle-coder/OWASPCodeEval) · [프로젝트 위키](https://capstone.uos.ac.kr/cdc/index.php/2%EB%B6%84%EB%B0%98-%EC%BA%90%EC%8A%AC%EC%BD%94%EB%8D%94)
 
@@ -36,7 +36,7 @@
 
 팀 프로젝트 협업 보조 앱 · 2024 2학기 · 서울시립대학교 소프트웨어공학 팀 프로젝트 · 백엔드 담당
 
-- Node.js, Express로 REST API 개발 및 AWS EC2 배포 (JWT 인증 포함 20여 개 API)
-- API 명세를 Notion에 수시로 갱신해 공유하는 방식으로 바꿔 프론트엔드 연동 병목을 줄임 (계획보다 3일 일찍 마무리)
+- Node.js·Express로 JWT 인증을 포함한 REST API 20여 개 개발 및 AWS EC2 배포
+- Notion에서 API 명세를 수시로 갱신·공유해 프론트엔드 연동 지연을 줄이고 계획보다 3일 일찍 마무리
 
 [Repository](https://github.com/2024-UOS-Software-Engineer-3-9team/Small-Work-Everyday) · [API 명세](https://eastern-silence-5cf.notion.site/API-For-14bb4dbdee4e80c49405e2e55c094f37) · [시연 영상](https://youtu.be/xPJ7QnxGDP4)
