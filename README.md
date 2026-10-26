@@ -2,8 +2,6 @@
 
 <a href="https://www.credly.com/badges/3071fb07-36a7-4366-af76-46cde0d2f8fa/public_url"><img align="right" width="110" alt="AWS Certified Solutions Architect – Associate" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"></a>
 
-요청이 처리되는 흐름을 직접 따라가며 문제의 원인을 찾습니다. 고친 뒤에는 문제가 났던 조건 그대로 다시 확인합니다.
-
 - 서울시립대학교 컴퓨터과학부 졸업 (2026.02)
 - SSAFY 16기 (2026.07 ~)
 - AWS Certified Solutions Architect – Associate (2025.05)
