@@ -15,10 +15,9 @@
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"> <img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black"> |
+| **Languages** | <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"> |
 | **Infrastructure** | <img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/github_actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> |
 | **AI Serving** | <img src="https://img.shields.io/badge/runpod-673AB7?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/vllm-30A2FF?style=for-the-badge&logoColor=white"> |
-| **Embedded** | <img src="https://img.shields.io/badge/stm32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"> <img src="https://img.shields.io/badge/atmega128-5A5A5A?style=for-the-badge&logoColor=white"> |
 
 <br>
 
@@ -43,14 +42,3 @@
 - API 명세를 Notion에 수시로 갱신해 공유하는 방식으로 바꿔 프론트엔드 연동 병목을 줄임 (계획보다 3일 일찍 마무리)
 
 [Repository](https://github.com/2024-UOS-Software-Engineer-3-9team/Small-Work-Everyday) · [API 명세](https://eastern-silence-5cf.notion.site/API-For-14bb4dbdee4e80c49405e2e55c094f37) · [시연 영상](https://youtu.be/xPJ7QnxGDP4)
-
-<br>
-
-## Side Projects
-
-| Project | Description |
-| :--- | :--- |
-| [MiniMCWS](https://github.com/shldlqj2/MiniMCWS) | ATmega128 보드로 무장 제어 FSM과 UART 통신(CRC) 구현 |
-| [MiniOFP](https://github.com/shldlqj2/MiniOFP) | 비행 소프트웨어(OFP) 핵심 개념을 C++로 구현하며 학습 |
-| [SSAFY STM32 스터디](https://github.com/0731chae/ssafy_stm32_study) | STM32F446RE 보드 주차별 실습 |
-| [SM-T500-LINUX](https://github.com/shldlqj2/SM-T500-LINUX) | 갤럭시 탭 A7에 리눅스 포팅 (진행 중) |
